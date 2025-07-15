@@ -1,0 +1,95 @@
+timestamp,user,workspace,filename,status,message
+2025-07-13T14:04:55.693868,admin1,admin_workspace,Anschreiben_Emirkaan-Akguen.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.698895,admin2,admin_workspace,TESTWORD.docx,success,Upload erfolgreich
+2025-07-13T14:04:55.704321,admin2,admin_workspace,IT-Sicherheit (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.708901,admin2,admin_workspace,time_01_introduction_presentation.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.714544,admin2,admin_workspace,Virtualization (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.718080,admin2,admin_workspace,Introduction (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.721397,admin2,admin_workspace,performance_01_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.724424,admin2,admin_workspace,subgroup_01_introduction_handout.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.726587,admin2,admin_workspace,test-6.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.728371,admin2,admin_workspace,A Sample PDF.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.734291,admin2,admin_workspace,Metadaten und Open Data (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.739734,admin2,admin_workspace,Internet-Technologien (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.744494,admin2,admin_workspace,04_tabular_data_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.753239,admin3,admin_workspace,Container und Cluster Management (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.765077,admin3,admin_workspace,Datenschutz und Datensicherheit (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.769984,admin3,admin_workspace,Erste Schritte mit OneDrive.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.772979,admin3,admin_workspace,02_clustering_overview_handout.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.776573,admin3,admin_workspace,00_orga_presentation.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.792847,admin3,admin_workspace,CC-AWS Web And Mobile Apps_Akguen_939642.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.797530,admin3,admin_workspace,Anschreiben 2.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.805742,admin3,admin_workspace,Datenmodellierung (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.810741,admin3,admin_workspace,Anschreiben_Emirkaan-Akguen.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.814981,admin3,admin_workspace,04_tabular_data_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.819777,admin3,admin_workspace,Complex Database Queries with SQL (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.822420,user2,user2_workspace,TESTWORD.docx,success,Upload erfolgreich
+2025-07-13T14:04:55.824238,user2,user2_workspace,IT-Sicherheit (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.826248,user2,user2_workspace,time_01_introduction_presentation.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.828531,user2,user2_workspace,Virtualization (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.831405,user2,user2_workspace,Introduction (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.834833,user2,user2_workspace,performance_01_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.837310,user2,user2_workspace,subgroup_01_introduction_handout.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.839187,user2,user2_workspace,test-6.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.840531,user2,user2_workspace,A Sample PDF.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.843783,user2,user2_workspace,Metadaten und Open Data (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.847477,user2,user2_workspace,Internet-Technologien (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.850344,user2,user2_workspace,04_tabular_data_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.854270,user3,user3_workspace,Container und Cluster Management (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.856811,user3,user3_workspace,Datenschutz und Datensicherheit (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.859601,user3,user3_workspace,Erste Schritte mit OneDrive.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.861735,user3,user3_workspace,02_clustering_overview_handout.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.864412,user3,user3_workspace,00_orga_presentation.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.874543,user3,user3_workspace,CC-AWS Web And Mobile Apps_Akguen_939642.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.878482,user3,user3_workspace,Anschreiben 2.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.885719,user3,user3_workspace,Datenmodellierung (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.892157,user3,user3_workspace,Anschreiben_Emirkaan-Akguen.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.895107,user3,user3_workspace,04_tabular_data_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:04:55.896984,user3,user3_workspace,Complex Database Queries with SQL (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.703316,admin1,admin_workspace,Anschreiben_Emirkaan-Akguen.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.709262,admin2,admin_workspace,TESTWORD.docx,success,Upload erfolgreich
+2025-07-13T14:49:55.713623,admin2,admin_workspace,IT-Sicherheit (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.717575,admin2,admin_workspace,time_01_introduction_presentation.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.721544,admin2,admin_workspace,Virtualization (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.727217,admin2,admin_workspace,Introduction (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.730053,admin2,admin_workspace,performance_01_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.732739,admin2,admin_workspace,subgroup_01_introduction_handout.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.735369,admin2,admin_workspace,test-6.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.737228,admin2,admin_workspace,A Sample PDF.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.743789,admin2,admin_workspace,Metadaten und Open Data (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.748636,admin2,admin_workspace,Internet-Technologien (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.752741,admin2,admin_workspace,04_tabular_data_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.757368,admin3,admin_workspace,Container und Cluster Management (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.760937,admin3,admin_workspace,Datenschutz und Datensicherheit (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.764150,admin3,admin_workspace,Erste Schritte mit OneDrive.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.766696,admin3,admin_workspace,02_clustering_overview_handout.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.770102,admin3,admin_workspace,00_orga_presentation.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.781762,admin3,admin_workspace,CC-AWS Web And Mobile Apps_Akguen_939642.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.786755,admin3,admin_workspace,Anschreiben 2.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.791715,admin3,admin_workspace,Datenmodellierung (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.797111,admin3,admin_workspace,Anschreiben_Emirkaan-Akguen.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.802749,admin3,admin_workspace,04_tabular_data_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.805895,admin3,admin_workspace,Complex Database Queries with SQL (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.808514,user2,user2_workspace,TESTWORD.docx,success,Upload erfolgreich
+2025-07-13T14:49:55.810397,user2,user2_workspace,IT-Sicherheit (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.812235,user2,user2_workspace,time_01_introduction_presentation.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.814427,user2,user2_workspace,Virtualization (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.816763,user2,user2_workspace,Introduction (EN).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.818652,user2,user2_workspace,performance_01_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.820417,user2,user2_workspace,subgroup_01_introduction_handout.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.822105,user2,user2_workspace,test-6.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.824352,user2,user2_workspace,A Sample PDF.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.827540,user2,user2_workspace,Metadaten und Open Data (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.830723,user2,user2_workspace,Internet-Technologien (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.832511,user2,user2_workspace,04_tabular_data_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.835170,user3,user3_workspace,Container und Cluster Management (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.837380,user3,user3_workspace,Datenschutz und Datensicherheit (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.840186,user3,user3_workspace,Erste Schritte mit OneDrive.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.843167,user3,user3_workspace,02_clustering_overview_handout.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.845713,user3,user3_workspace,00_orga_presentation.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.854621,user3,user3_workspace,CC-AWS Web And Mobile Apps_Akguen_939642.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.858996,user3,user3_workspace,Anschreiben 2.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.864453,user3,user3_workspace,Datenmodellierung (DE).pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.868122,user3,user3_workspace,Anschreiben_Emirkaan-Akguen.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.871913,user3,user3_workspace,04_tabular_data_tasks.pdf,success,Upload erfolgreich
+2025-07-13T14:49:55.875470,user3,user3_workspace,Complex Database Queries with SQL (EN).pdf,success,Upload erfolgreich

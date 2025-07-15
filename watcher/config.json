@@ -1,0 +1,17 @@
+{
+    "api_key": "1F33DCC-G0F4GP3-MHYG8DD-TJA4KCP",
+    "workspace_mapping": [
+      {
+        "folders": ["/Users/e26ak/OneDrive/WFA"],
+        "workspace_slugs": ["admin_workspace", "wehlers_workspace"]
+      },
+      {
+        "folders": ["/Users/e26ak/OneDrive/GTZ"],
+        "workspace_slugs": ["admin_workspace", "wehlers_workspace"]
+      },
+      {
+        "folders": ["/Users/e26ak/OneDrive/EF_vertraulich"],
+        "workspace_slugs": ["admin_workspace", "wehlers_workspace"]
+      }
+    ]
+  }
