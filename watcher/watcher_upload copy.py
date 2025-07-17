@@ -14,53 +14,34 @@ ACCEPTED_EXTENSIONS = [".pdf", ".docx", ".txt"]
 # === Bereits verarbeitete Dateien merken ===
 seen_files = set()
 
-# === Datei hochladen ===
-def upload_file(api_key, workspace_slug, file_path):
-    url = f"http://localhost:3001/api/v1/document/upload/{workspace_slug}"
-    headers = {"Authorization": f"Bearer {api_key}"}
+# === Datei hochladen und automatisch den Workspace zuordnen ===
+def upload_file_to_workspaces(api_key, file_path, workspace_slugs):
+    url = "http://localhost:3001/api/v1/document/upload"
+    headers = {
+        "Authorization": f"Bearer {api_key}"
+    }
+
+    workspace_list = ",".join(workspace_slugs)
 
     try:
         with open(file_path, "rb") as f:
-            files = {"file": f}
-            response = requests.post(url, headers=headers, files=files)
-
-        if response.status_code == 200:
-            print(f"✅ Hochgeladen: {file_path} → Workspace '{workspace_slug}'")
-            file_name = os.path.basename(file_path)
-            move_to_workspace_folder(api_key, file_name, workspace_slug)
-        else:
-            print(f"❌ Upload-Fehler ({response.status_code}) bei {file_path}: {response.text}")
-    except Exception as e:
-        print(f"❌ Ausnahme beim Hochladen von {file_path}: {e}")
-
-# === Datei in Ordner verschieben ===
-def move_to_workspace_folder(api_key, file_name, workspace_slug):
-    url = "http://localhost:3001/api/v1/document/move-files"
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
-
-    payload = {
-        "files": [
-            {
-                "from": f"{workspace_slug}/{file_name}",
-                "to": f"folder/{workspace_slug}/{file_name}"
+            files = {
+                "file": f
             }
-        ]
-    }
+            data = {
+                "addToWorkspaces": workspace_list
+            }
 
-    try:
-        response = requests.post(url, headers=headers, json=payload)
+            response = requests.post(url, headers=headers, files=files, data=data)
+
         if response.status_code == 200:
-            print(f"📂 Verschoben: {file_name} → folder/{workspace_slug}")
+            print(f"✅ Hochgeladen: {file_path} → Workspaces: {workspace_list}")
         else:
-            error_msg = response.json().get("message", "Unbekannter Fehler")
-            print(f"⚠️ Fehler beim Verschieben von {file_name}: {response.status_code} - {error_msg}")
+            print(f"❌ Upload-Fehler: {response.status_code} - {response.text}")
     except Exception as e:
-        print(f"❌ Ausnahme beim Verschieben von {file_name}: {e}")
+        print(f"❌ Ausnahme beim Upload von {file_path}: {e}")
 
-# === Ordner überwachen und hochladen ===
+# === Ordner scannen und neue Dateien hochladen ===
 def scan_and_upload():
     for mapping in workspace_mapping:
         for folder in mapping["folders"]:
@@ -78,9 +59,7 @@ def scan_and_upload():
                     if full_path in seen_files:
                         continue
 
-                    for workspace_slug in mapping["workspace_slugs"]:
-                        upload_file(API_KEY, workspace_slug, full_path)
-
+                    upload_file_to_workspaces(API_KEY, full_path, mapping["workspace_slugs"])
                     seen_files.add(full_path)
 
 # === Hauptschleife ===
